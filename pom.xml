@@ -73,5 +73,24 @@
 	    </plugin>
 	  </plugins>
 	</build>
-	
+    <distributionManagement>
+
+     <repository>
+         <id>nexus</id>
+         <name>dhoni-release</name>
+         <url><distributionManagement>
+
+    <repository>
+        <id>nexus</id>
+        <name>balu-release</name>
+        <url>http://13.232.207.103:8081/repository/balu-release/</url>
+        </repository>
+
+        <snapshotRepository>
+          <id>nexus</id>
+          <name>dhoni-snapshot</name>
+          <url>http://13.232.207.103:8081/repository/balu-snapshot/</url>
+       </snapshotRepository>
+
+     </distributionManagement>	
 </project>
